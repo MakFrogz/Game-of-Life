@@ -1,0 +1,33 @@
+{
+    "name": "UIInputs",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "efac2eef-090a-4175-a962-73992d0cc2b2",
+            "actions": [
+                {
+                    "name": "Hide",
+                    "type": "Button",
+                    "id": "769263c7-29be-4592-b220-65eb908d28d5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4b730a62-bf3c-4343-9228-cd08e0b4094d",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
