@@ -29,7 +29,7 @@ public class Cell : MonoBehaviour
         }
         if (IsAlive)
         {
-            switch (rule) //S
+            switch (rule) //Survive
             {
                 case Rule.B3S23:
                     IsAliveNext = aliveCount == 2 || aliveCount == 3;
@@ -53,7 +53,7 @@ public class Cell : MonoBehaviour
         }
         else
         {
-            switch (rule) //B
+            switch (rule) //Birth
             {
                 case Rule.B3S23:
                     IsAliveNext = aliveCount == 3;

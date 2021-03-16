@@ -164,31 +164,6 @@ public class Board : MonoBehaviour
         }
     }
 
-    /*public void SetRule(int ruleIndex)
-    {
-        switch (ruleIndex)
-        {
-            case 0:
-                _curentRule = Rule.B3S23;
-                break;
-            case 1:
-                _curentRule = Rule.B3S012345678;
-                break;
-            case 2:
-                _curentRule = Rule.B5678S45678;
-                break;
-            case 3:
-                _curentRule = Rule.B3678S34678;
-                break;
-            case 4:
-                _curentRule = Rule.B36S23;
-                break;
-            case 5:
-                _curentRule = Rule.B2S;
-                break;
-        }
-    }*/
-
     public void SetRule(string ruleString)
     {
         switch (ruleString)
